@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdbool.h>
+#include <unistd.h>
+#include <math.h>
 
 #define EMPTY_SEPARATOR '\x1f'
 #define SEPARATORS "\x1f _-/"

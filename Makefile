@@ -3,7 +3,7 @@ NAME 		= bcs-tester
 CC 			= cc
 RM			= rm -f
 CFLAGS 		+= -Wall -Wextra -O3
-CLINKS		=
+CLINKS		= -lm
 
 SRC 		= main.c\
 				bcrypt_tester.c\
